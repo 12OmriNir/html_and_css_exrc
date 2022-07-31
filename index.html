@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Shitstegram</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+</head>
+
+<style>
+    body {
+        background-color: #6CBED3;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightseagreen;
+    }
+
+    nav ul li .li-text:hover {
+        background-color: lightgrey;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-pic {
+        width: 40px;
+        height: 40px;
+    }
+
+    .li-text {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+.arc-center {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    width: 100%;
+    margin: 50px;
+    border-color: white ;
+    border-style: dashed;
+}
+</style>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a><img class="navbar-pic" src="./assets/favicon.ico"></a>
+                </li>
+                <li>
+                    <a class="li-text" href="">Home</a>
+                </li>
+                <li>
+                    <a class="li-text" href="">New Post</a>
+                </li>
+                <li>
+                    <a class="li-text" href="">Discover</a>
+                </li>
+                <li>
+                    <a class="li-text" href="">Settings</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>All the posts</h1>
+
+        <article>
+            <div class="arc-center">
+                <img src="./assets/most beautiful place.jpg">
+            </div>
+            <p class="arc-center"><strong>Giga Chad</strong> The best place in the world!</p>
+            <details class="arc-center">
+                <summary>Comments</summary>
+                <p><strong>BeGvir</strong> Let's meet there.</p>
+                <p><strong>Junior</strong> The one in modiin is better</p>
+            </details>
+        </article>
+
+        <article>
+            <img class="arc-center" src="./assets/pepe.jpg">
+            <p class="arc-center"><strong>Meme Page</strong> POV: You are a tree in minecraft</p>
+            <details class="arc-center">
+                <summary>Comments</summary>
+                <p><strong>Bot</strong> XD</p>
+            </details>
+        </article>
+    </main>
+</body>
+
+</html>
